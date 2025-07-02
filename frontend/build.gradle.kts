@@ -4,12 +4,6 @@ plugins {
     id("org.jetbrains.compose") version "1.6.1"
 }
 
-repositories {
-    mavenCentral()
-    maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
-    google()
-}
-
 dependencies {
     // Compose for Desktop
     implementation(compose.desktop.currentOs)
